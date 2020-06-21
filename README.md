@@ -34,18 +34,11 @@ Below are steps you can follow to complete the project:
  <li>Write CREATE statements in sql_queries.py to create each table.</li><br/>
 <li>Write DROP statements in sql_queries.py to drop each table if it exists.</li><br/>
 <li>Run create_tables.py to create your database and tables.</li><br/>
-<li>Run test.ipynb to confirm the creation of your tables with the correct columns. Make sure to click "Restart kernel" to close the connection to the database after running this notebook.</li><br/>
+<li>Run test.ipynb to confirm the creation of your tables with the correct columns. Make sure to click "Restart kernel" to close the connection to the database after running this notebook.</li></ul><br/>
  <b>Build ETL Processes</b><br/>
 <ul><li>Follow instructions in the etl.ipynb notebook to develop ETL processes for each table. At the end of each table section, or at the end of the notebook, run test.ipynb to confirm that records were successfully inserted into each table. Remember to rerun create_tables.py to reset your tables before each time you run this notebook.</li></ul>
 <br/>
  <b>Build ETL Pipeline</b><br/>
 <ul><li>Use what you've completed in etl.ipynb to complete etl.py, where you'll process the entire datasets. Remember to run create_tables.py before running etl.py to reset your tables. Run test.ipynb to confirm your records were successfully inserted into each table.</li></ul>
 <br/>
- <b>Document Process</b><br/>
- <ul><li>Do the following steps in your README.md file.</li></ul>
-<br/>
-Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goals.<br/>
-State and justify your database schema design and ETL pipeline.<br/>
-[Optional] Provide example queries and results for song play analysis.<br/>
-Here's a guide on Markdown Syntax."<br/>
- 
+
