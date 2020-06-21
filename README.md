@@ -29,11 +29,11 @@ start_time, hour, day, week, month, year, weekday"
 ## Project Steps - From Udacity
 Below are steps you can follow to complete the project:
 <br/>
-<b>Create Tables</b><br/>
+<b>Create Tables</b>
 <ul>
- <li>Write CREATE statements in sql_queries.py to create each table.</li><br/>
-<li>Write DROP statements in sql_queries.py to drop each table if it exists.</li><br/>
-<li>Run create_tables.py to create your database and tables.</li><br/>
+<li>Write CREATE statements in sql_queries.py to create each table.</li>
+<li>Write DROP statements in sql_queries.py to drop each table if it exists.</li>
+<li>Run create_tables.py to create your database and tables.</li>
 <li>Run test.ipynb to confirm the creation of your tables with the correct columns. Make sure to click "Restart kernel" to close the connection to the database after running this notebook.</li></ul><br/>
  <b>Build ETL Processes</b><br/>
 <ul><li>Follow instructions in the etl.ipynb notebook to develop ETL processes for each table. At the end of each table section, or at the end of the notebook, run test.ipynb to confirm that records were successfully inserted into each table. Remember to rerun create_tables.py to reset your tables before each time you run this notebook.</li></ul>
