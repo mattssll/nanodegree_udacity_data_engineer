@@ -11,7 +11,7 @@ As the data engineer we have "to create a star schema optimized for queries on s
 <b>songplays</b> - records in log data associated with song plays i.e. records with page NextSong
 songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 <br/><br/>
-<b>Dimension Tables:</b><br/>
+<b>Dimension Tables:</b>
 <br/>
 <b>users</b> - users in the app
 user_id, first_name, last_name, gender, level
@@ -29,19 +29,20 @@ start_time, hour, day, week, month, year, weekday"
 ## Project Steps - From Udacity
 Below are steps you can follow to complete the project:
 <br/>
-Create Tables<br/>
-Write CREATE statements in sql_queries.py to create each table.<br/>
-Write DROP statements in sql_queries.py to drop each table if it exists.<br/>
-Run create_tables.py to create your database and tables.<br/>
-Run test.ipynb to confirm the creation of your tables with the correct columns. Make sure to click "Restart kernel" to close the connection to the database after running this notebook.<br/>
-Build ETL Processes<br/>
-Follow instructions in the etl.ipynb notebook to develop ETL processes for each table. At the end of each table section, or at the end of the notebook, run test.ipynb to confirm that records were successfully inserted into each table. Remember to rerun create_tables.py to reset your tables before each time you run this notebook.
+<b>Create Tables</b><br/>
+<ul>
+ <li>Write CREATE statements in sql_queries.py to create each table.</li><br/>
+<li>Write DROP statements in sql_queries.py to drop each table if it exists.</li><br/>
+<li>Run create_tables.py to create your database and tables.</li><br/>
+<li>Run test.ipynb to confirm the creation of your tables with the correct columns. Make sure to click "Restart kernel" to close the connection to the database after running this notebook.</li><br/>
+ <b>Build ETL Processes</b><br/>
+<ul><li>Follow instructions in the etl.ipynb notebook to develop ETL processes for each table. At the end of each table section, or at the end of the notebook, run test.ipynb to confirm that records were successfully inserted into each table. Remember to rerun create_tables.py to reset your tables before each time you run this notebook.</li></ul>
 <br/>
-Build ETL Pipeline<br/>
-Use what you've completed in etl.ipynb to complete etl.py, where you'll process the entire datasets. Remember to run create_tables.py before running etl.py to reset your tables. Run test.ipynb to confirm your records were successfully inserted into each table.
+ <b>Build ETL Pipeline</b><br/>
+<ul><li>Use what you've completed in etl.ipynb to complete etl.py, where you'll process the entire datasets. Remember to run create_tables.py before running etl.py to reset your tables. Run test.ipynb to confirm your records were successfully inserted into each table.</li></ul>
 <br/>
-Document Process<br/>
-Do the following steps in your README.md file.
+ <b>Document Process</b><br/>
+ <ul><li>Do the following steps in your README.md file.</li></ul>
 <br/>
 Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goals.<br/>
 State and justify your database schema design and ETL pipeline.<br/>
