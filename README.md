@@ -1,6 +1,6 @@
 # Udacity Data Engineering - Project 1 
 ### Postgres: Data-Modelling
-<br/>
+
 A fictional Startup called Sparkify is trying to analize the data they've been collecting on songs and user activity. The only problem is that this data is being stored into JSON formats. <br/>
 To solve this problem they hired a data engineer to help them storing this data in sql using postgres, so they can easily query and analyse the data. 
 
