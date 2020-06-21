@@ -6,12 +6,12 @@ To solve this problem they hired a data engineer to help them storing this data 
 
 
 As the data engineer we have "to create a star schema optimized for queries on song play analysis. This includes the following tables.
-<br/>
-Fact Table <br/><br/>
+<br/><br/>
+<b>Fact Table: </b> <br/>
 <b>songplays</b> - records in log data associated with song plays i.e. records with page NextSong
 songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 <br/><br/>
-Dimension Tables<br/>
+<b>Dimension Tables:</b><br/>
 <br/>
 <b>users</b> - users in the app
 user_id, first_name, last_name, gender, level
