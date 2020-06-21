@@ -26,7 +26,7 @@ artist_id, name, location, latitude, longitude
 start_time, hour, day, week, month, year, weekday"
 <br/>
 <br/>
-## "Project Steps
+## Project Steps - From Udacity
 Below are steps you can follow to complete the project:
 <br/>
 Create Tables<br/>
