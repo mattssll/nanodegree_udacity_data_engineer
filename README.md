@@ -30,8 +30,8 @@ start_time, hour, day, week, month, year, weekday"
 ### Here's the Entity Relational Diagram (ERD):
 ![Database schema](Project1_ERD.PNG)
 
-<br/><br/>
-## Project Steps - From Udacity
+<br/>
+## Project Steps - Quoting Udacity:
 Below are steps you can follow to complete the project:
 <br/>
 <b>Create Tables</b>
