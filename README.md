@@ -30,8 +30,7 @@ start_time, hour, day, week, month, year, weekday"
 Below are steps you can follow to complete the project:
 <br/>
 <b>Create Tables</b>
-<ul>
-<li>Write CREATE statements in sql_queries.py to create each table.</li>
+<ul><li>Write CREATE statements in sql_queries.py to create each table.</li>
 <li>Write DROP statements in sql_queries.py to drop each table if it exists.</li>
 <li>Run create_tables.py to create your database and tables.</li>
 <li>Run test.ipynb to confirm the creation of your tables with the correct columns. Make sure to click "Restart kernel" to close the connection to the database after running this notebook.</li></ul><br/>
