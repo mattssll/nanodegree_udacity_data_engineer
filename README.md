@@ -1,6 +1,6 @@
 # Data Engineer NanoDegree -
 ### Used Technologies: Python, AWS, Postgres, Cassandra, S3, Redshift (Warehouse), Data Lakes in S3 & Airflow
-
+<img src="./stackdataeng.png">
 This repository contains projects developed through the Data Engineering Nanodegree offered by Udacity.
 Most of them utilize Python to set-up applications where we can do the Engineering work, usually capturing, transforming, and storing data with different architectures.
 
