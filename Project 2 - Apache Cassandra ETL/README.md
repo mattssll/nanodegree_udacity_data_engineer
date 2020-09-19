@@ -1,4 +1,5 @@
-"Datasets
+# ETL with Apache Cassandra, Python and AWS
+
 For this project, we'll be working with one dataset: event_data. 
 The directory of CSV files partitioned by date. Here are examples of filepaths to two files in the dataset:
 
