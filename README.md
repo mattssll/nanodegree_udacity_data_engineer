@@ -10,3 +10,6 @@ Most of them utilize Python to set-up applications where we can do the Engineeri
 <b>Project 3)</b> Worked with AWS (Redshift and S3) and Python to create an ETL. Our work creates the IAM Credentials, create the Redshift Cluster using code, we also had to open a VPC port in our VPC (Network), so we can access the redshift cluster endpoint. In the end we delete the cluster so it won't consume resources. <br>
 <b>Project 4)</b> In project 4 we used s3 as a data lake, and spark to process our data and store it back in S3. <br>
 <b>Project 5)</b> Airflow is the king here, we used Airflow to implement a Data Pipeline (ETL). <br>
+
+### And the certificate:
+<img src="./certificate_nanodegree.png">
